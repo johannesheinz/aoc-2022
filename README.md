@@ -12,7 +12,7 @@ https://adventofcode.com/2022/
 | 2022-12-03 | [Day 3: Rucksack Reorganization](https://adventofcode.com/2022/day/3) | [`Go`](#go)             |
 | 2022-12-04 | [Day 4: Camp Cleanup](https://adventofcode.com/2022/day/4)            | [`Rust`](#rust)         |
 | 2022-12-05 | [Day 5: Supply Stacks](https://adventofcode.com/2022/day/5)           | [`C++`](#c)             |
-| 2022-12-06 | [Day 6: ](https://adventofcode.com/2022/day/6)                        | [`Scala`](#scala)       |
+| 2022-12-06 | [Day 6: Tuning Trouble](https://adventofcode.com/2022/day/6)          | [`Scala 2.13`](#scala)  |
 | 2022-12-07 | [Day 7: ](https://adventofcode.com/2022/day/7)                        | [`Ruby`](#ruby)         |
 | 2022-12-08 | [Day 8: ](https://adventofcode.com/2022/day/8)                        | [`Node.js`](#nodejs)    |
 | 2022-12-09 | [Day 9: ](https://adventofcode.com/2022/day/9)                        | [`Elixir`](#elixir)     |
@@ -83,13 +83,11 @@ go run myProgram.go
 # Install Rust on Arch Linux
 sudo pacman -S rust
 
-# Compile program
+# Compile and run program
 rustc myProgram.rs 
-
-# Run program
 ./myProgram
 
-# Using cargo
+# Use cargo as runner in separate folder
 cd myProgram
 cargo run
 ```
@@ -114,18 +112,20 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 
 ### Scala
 
+* Scala 3 was released in May 2021, but is incompatible with code written in Scala 2.x
 * https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html
-* https://www.baeldung.com/scala/file-io
+* https://www.baeldung.com/scala/file-io#reading-from-a-file
 
 ```
 # Install Scala on Arch Linux
 sudo pacman -S scala
 
-# Compile program
+# Compile and run program
 scalac MyProgram.scala
-
-# Run program
 scala MyProgram
+
+# Run program as script
+scala MyProgram.scala
 ```
 
 
