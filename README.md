@@ -38,7 +38,7 @@ https://adventofcode.com/2022/
 
 * https://www.python.org/doc/
 
-```
+```sh
 # Install Python 3 on Arch Linux
 sudo pacman -S python
 
@@ -53,7 +53,7 @@ python myProgram.py
 * https://kotlinlang.org/docs/home.html
 * https://selfformat.com/blog/2022/09/15/how-to-quickly-write-and-run-kotlin-script/
 
-```
+```sh
 # Install Kotlin on Arch Linux
 sudo pacman -S kotlin
 
@@ -66,7 +66,7 @@ kotlinc -script myProgram.main.kts
 
 * https://go.dev/
 
-```
+```sh
 # Install Go on Arch Linux
 sudo pacman -S go
 
@@ -79,7 +79,7 @@ go run myProgram.go
 
 * https://www.rust-lang.org/
 
-```
+```sh
 # Install Rust on Arch Linux
 sudo pacman -S rust
 
@@ -99,7 +99,7 @@ cargo run
 * https://cppbyexample.com/
 * https://en.cppreference.com/w/cpp/algorithm
 
-```
+```sh
 # Install LLVM toolchain on Arch Linux
 sudo pacman -S clang lld lldb libc++
 
@@ -117,7 +117,7 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 * https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html
 * https://www.baeldung.com/scala/file-io#reading-from-a-file
 
-```
+```sh
 # Install Scala on Arch Linux
 sudo pacman -S scala
 
@@ -135,7 +135,7 @@ scala MyProgram.scala
 * https://www.ruby-lang.org
 * https://www.rubyguides.com/2015/05/working-with-files-ruby/
 
-```
+```sh
 # Install Ruby on Arch Linux
 sudo pacman -S ruby
 
@@ -148,7 +148,7 @@ ruby myProgram.rb
 
 * https://nodejs.org/en/docs/
 
-```
+```sh
 # Install Node.js on Arch Linux
 sudo pacman -S nodejs
 
@@ -164,7 +164,7 @@ node myProgram.js
 * https://blixtdev.com/how-to-use-enum-map-enum-reduce-in-elixir/
 * https://programming-idioms.org/idiom/7/iterate-over-list-indexes-and-values
 
-```
+```sh
 # Install Elixir and Erlang VM on Arch Linux
 sudo pacman -S elixir
 
@@ -179,7 +179,7 @@ elixir myProgram.exs
 * https://www.happycoders.eu/java/java-19-features/
 * https://ondro.inginea.eu/index.php/new-features-in-java-versions-since-java-8/
 
-```
+```sh
 # Install latest headless OpenJDK (Java Development Kit) on Arch Linux
 sudo pacman -S jre-openjdk-headless openjdk-doc openjdk-src
 
@@ -201,7 +201,7 @@ java MyProgram
 * https://www.w3schools.com/php/php_examples.asp
 * https://www.freecodecamp.org/news/the-best-php-examples/
 
-```
+```sh
 # Install PHP interpreter on Arch Linux
 sudo pacman -S php
 
@@ -217,7 +217,7 @@ php myProgram.php
 * https://www.haskellforall.com/2015/10/basic-haskell-examples.html
 * https://wiki.haskell.org/Learn_Haskell_in_10_minutes
 
-```
+```sh
 # Install the Glasgow Haskell Compiler on Arch Linux
 sudo pacman -S ghc
 
@@ -233,7 +233,7 @@ ghc -dynamic MyProgram.hs
 
 * https://cppbyexample.com/
 
-```
+```sh
 # Install LLVM toolchain on Arch Linux
 sudo pacman -S clang lld lldb libc++
 
@@ -249,7 +249,7 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 
 * https://cppbyexample.com/
 
-```
+```sh
 # Install LLVM toolchain on Arch Linux
 sudo pacman -S clang lld lldb libc++
 
@@ -265,7 +265,7 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 
 * https://cppbyexample.com/
 
-```
+```sh
 # Install LLVM toolchain on Arch Linux
 sudo pacman -S clang lld lldb libc++
 
@@ -281,7 +281,7 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 
 * https://cppbyexample.com/
 
-```
+```sh
 # Install LLVM toolchain on Arch Linux
 sudo pacman -S clang lld lldb libc++
 
@@ -297,7 +297,7 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 
 * https://cppbyexample.com/
 
-```
+```sh
 # Install LLVM toolchain on Arch Linux
 sudo pacman -S clang lld lldb libc++
 
@@ -313,7 +313,7 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 
 * https://cppbyexample.com/
 
-```
+```sh
 # Install LLVM toolchain on Arch Linux
 sudo pacman -S clang lld lldb libc++
 
@@ -329,7 +329,7 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 
 * https://cppbyexample.com/
 
-```
+```sh
 # Install LLVM toolchain on Arch Linux
 sudo pacman -S clang lld lldb libc++
 
@@ -345,7 +345,7 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 
 * https://cppbyexample.com/
 
-```
+```sh
 # Install LLVM toolchain on Arch Linux
 sudo pacman -S clang lld lldb libc++
 
@@ -361,7 +361,7 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 
 * https://cppbyexample.com/
 
-```
+```sh
 # Install LLVM toolchain on Arch Linux
 sudo pacman -S clang lld lldb libc++
 
@@ -377,7 +377,7 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 
 * https://cppbyexample.com/
 
-```
+```sh
 # Install LLVM toolchain on Arch Linux
 sudo pacman -S clang lld lldb libc++
 
@@ -393,7 +393,7 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 
 * https://cppbyexample.com/
 
-```
+```sh
 # Install LLVM toolchain on Arch Linux
 sudo pacman -S clang lld lldb libc++
 
@@ -409,7 +409,7 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 
 * https://cppbyexample.com/
 
-```
+```sh
 # Install LLVM toolchain on Arch Linux
 sudo pacman -S clang lld lldb libc++
 
@@ -425,7 +425,7 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 
 * https://cppbyexample.com/
 
-```
+```sh
 # Install LLVM toolchain on Arch Linux
 sudo pacman -S clang lld lldb libc++
 
