@@ -13,10 +13,10 @@ https://adventofcode.com/2022/
 | 2022-12-04 | [Day 4: Camp Cleanup](https://adventofcode.com/2022/day/4)            | [`Rust`](#rust)         |
 | 2022-12-05 | [Day 5: Supply Stacks](https://adventofcode.com/2022/day/5)           | [`C++`](#c)             |
 | 2022-12-06 | [Day 6: Tuning Trouble](https://adventofcode.com/2022/day/6)          | [`Scala 2.13`](#scala)  |
-| 2022-12-07 | [Day 7: ](https://adventofcode.com/2022/day/7)                        | [`Ruby`](#ruby)         |
-| 2022-12-08 | [Day 8: ](https://adventofcode.com/2022/day/8)                        | [`Node.js`](#nodejs)    |
-| 2022-12-09 | [Day 9: ](https://adventofcode.com/2022/day/9)                        | [`Elixir`](#elixir)     |
-| 2022-12-10 | [Day 10: ](https://adventofcode.com/2022/day/10)                      | [`Java 19`](#java)      |
+| 2022-12-07 | [Day 7: No Space Left On Device](https://adventofcode.com/2022/day/7) | [`Ruby`](#ruby)         |
+| 2022-12-08 | [Day 8: Treetop Tree House](https://adventofcode.com/2022/day/8)      | [`Node.js`](#nodejs)    |
+| 2022-12-09 | [Day 9: Rope Bridge](https://adventofcode.com/2022/day/9)             | [`Elixir`](#elixir)     |
+| 2022-12-10 | [Day 10: Cathode-Ray Tube](https://adventofcode.com/2022/day/10)      | [`Java 19`](#java)      |
 | 2022-12-11 | [Day 11: ](https://adventofcode.com/2022/day/11)                      | [`PHP`](#php)           |
 | 2022-12-12 | [Day 12: ](https://adventofcode.com/2022/day/12)                      | [`Haskell`](#haskell)   |
 | 2022-12-13 | [Day 13: ](https://adventofcode.com/2022/day/13)                      | [`Bash`](#bash)         |
@@ -97,6 +97,7 @@ cargo run
 
 * https://cplusplus.com/doc/
 * https://cppbyexample.com/
+* https://en.cppreference.com/w/cpp/algorithm
 
 ```
 # Install LLVM toolchain on Arch Linux
@@ -159,6 +160,9 @@ node myProgram.js
 ### Elixir
 
 * https://elixir-lang.org/getting-started/introduction.html
+* https://hexdocs.pm/elixir/1.13.4/MapSet.html
+* https://blixtdev.com/how-to-use-enum-map-enum-reduce-in-elixir/
+* https://programming-idioms.org/idiom/7/iterate-over-list-indexes-and-values
 
 ```
 # Install Elixir and Erlang VM on Arch Linux
@@ -171,48 +175,57 @@ elixir myProgram.exs
 
 ### Java
 
-* https://cppbyexample.com/
+* https://www.w3schools.com/java/java_intro.asp
+* https://www.happycoders.eu/java/java-19-features/
+* https://ondro.inginea.eu/index.php/new-features-in-java-versions-since-java-8/
 
 ```
-# Install LLVM toolchain on Arch Linux
-sudo pacman -S clang lld lldb libc++
+# Install latest headless OpenJDK (Java Development Kit) on Arch Linux
+sudo pacman -S jre-openjdk-headless openjdk-doc openjdk-src
 
-# Compile program
-clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
+# Configure Java on Arch Linux
+archlinux-java status
+sudo archlinux-java set java-19-openjdk
 
-# Run program
-./myProgram
+# 'Compile' program to Java byte code
+javac MyProgram.java
+
+# Run program in JVM (Java Virtual Machine)
+java MyProgram
 ```
 
 ### PHP
 
-* https://cppbyexample.com/
+* https://www.php.net/manual/en/langref.php
+* https://www.php.net/manual/en/features.commandline.php
+* https://www.w3schools.com/php/php_examples.asp
+* https://www.freecodecamp.org/news/the-best-php-examples/
 
 ```
-# Install LLVM toolchain on Arch Linux
-sudo pacman -S clang lld lldb libc++
-
-# Compile program
-clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
+# Install PHP interpreter on Arch Linux
+sudo pacman -S php
 
 # Run program
-./myProgram
+php myProgram.php
 ```
 
 
 ### Haskell
 
-* https://cppbyexample.com/
+* https://www.haskell.org/
+* https://www.schoolofhaskell.com/user/eriks/Simple%20examples
+* https://www.haskellforall.com/2015/10/basic-haskell-examples.html
+* https://wiki.haskell.org/Learn_Haskell_in_10_minutes
 
 ```
-# Install LLVM toolchain on Arch Linux
-sudo pacman -S clang lld lldb libc++
+# Install the Glasgow Haskell Compiler on Arch Linux
+sudo pacman -S ghc
 
 # Compile program
-clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
+ghc -dynamic MyProgram.hs
 
 # Run program
-./myProgram
+./MyProgram
 ```
 
 
@@ -427,3 +440,4 @@ clang++ -Wall -std=c++20 myProgram.cpp -o myProgram
 ## Credits
 
 * https://www.99-bottles-of-beer.net for finding new programming languages and examples
+* https://programming-idioms.org/ for translating knowledge from one language to another
