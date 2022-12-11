@@ -176,6 +176,9 @@ elixir myProgram.exs
 ### Java
 
 * https://www.w3schools.com/java/java_intro.asp
+* https://code.visualstudio.com/docs/java/java-project#_configure-runtime-for-projects
+* https://www.baeldung.com/java-collections
+* https://www.baeldung.com/java-streams
 * https://www.happycoders.eu/java/java-19-features/
 * https://ondro.inginea.eu/index.php/new-features-in-java-versions-since-java-8/
 
@@ -187,11 +190,12 @@ sudo pacman -S jre-openjdk-headless openjdk-doc openjdk-src
 archlinux-java status
 sudo archlinux-java set java-19-openjdk
 
-# 'Compile' program to Java byte code
+# 'Compile' program to Java byte code and run it in the JVM (Java Virtual Machine)
 javac MyProgram.java
-
-# Run program in JVM (Java Virtual Machine)
 java MyProgram
+
+# New since Java 11: Run Java code directly as script
+java MyProgram.java
 ```
 
 ### PHP
